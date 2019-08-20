@@ -1,7 +1,0 @@
-1. start
-2. students input = 40 to be inspected nails
-3. if students have long nails will be punished by the teacher
-4. if not the teacher will praise the students
-5. count students who have long nails
-6. print the grades of students who will be punished
-7. finished
