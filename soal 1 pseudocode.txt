@@ -1,6 +1,0 @@
-1. start
-2. Input: m = 600 kg
-3. Input: A = 2 m / s2
-4. calculate SF = m x a
-5. print the value SF
-6. finished
