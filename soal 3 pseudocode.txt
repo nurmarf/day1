@@ -1,6 +1,0 @@
-1. start
-2. Input: clothes to be washed = 20
-3. if all clothes have entered the washing machine will light up
-4. count the number of clothes that enter the washing machine
-5. print out the number of clothes = 20
-6. finished
