@@ -1,7 +1,7 @@
-function balikString(str) {
+function balikString(b) {
     var a = '';
-    for (var i = str.length - 1; i >= 0; i--) {
-        a = a + str[i];
+    for (var i = b.length - 1; i >= 0; i--) {
+        a = a + b[i];
     }
 
     return a;
