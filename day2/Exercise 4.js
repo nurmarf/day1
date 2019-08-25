@@ -10,26 +10,28 @@ array.splice(4,0, "Pria");
 array.splice(5,1, "SMA Internasional Metro");
 console.log(array);
 console.log('________________________________');
+console.log(' ');
 //Mei
 var bulan = array[3].split("/");
 var bulanHuruf = "";
 switch (bulan[1]) {
   case "01" : bulanHuruf="Januari"; break;
-  case "02" : bulanHuruf="Januari"; break;
-  case "03" : bulanHuruf="Januari"; break;
-  case "04" : bulanHuruf="Januari"; break;
-  case "05" : bulanHuruf="Januari"; break;
-  case "06" : bulanHuruf="Januari"; break;
-  case "07" : bulanHuruf="Januari"; break;
-  case "08" : bulanHuruf="Januari"; break;
-  case "09" : bulanHuruf="Januari"; break;
-  case "10" : bulanHuruf="Januari"; break;
-  case "11" : bulanHuruf="Januari"; break;
-  case "12" : bulanHuruf="Januari"; break;
+  case "02" : bulanHuruf="Februari"; break;
+  case "03" : bulanHuruf="Maret"; break;
+  case "04" : bulanHuruf="April"; break;
+  case "05" : bulanHuruf="Mei"; break;
+  case "06" : bulanHuruf="Juni"; break;
+  case "07" : bulanHuruf="Juli"; break;
+  case "08" : bulanHuruf="Agustus"; break;
+  case "09" : bulanHuruf="September"; break;
+  case "10" : bulanHuruf="Oktober"; break;
+  case "11" : bulanHuruf="November"; break;
+  case "12" : bulanHuruf="Desember"; break;
   default:
 }
 console.log(bulanHuruf);
 console.log('________________________________');
+console.log(' ');
 //[1989, 21, 05]
 var simpanTanggal = [];
 for (var i = 0; i < bulan.length; i++) {
@@ -45,13 +47,20 @@ var a = tambah0 + simpanHasil;
 simpanTanggal.splice (2,1, a);
 console.log(simpanTanggal);
 console.log('________________________________');
+console.log(' ');
 
 // 21-05-1989
 console.log(bulan.join('-'));
+console.log('________________________________');
+console.log(' ');
 
 //Roman Alamsyah
 console.log(array[1].split(' ').slice(0,2).join(' '));
+console.log('________________________________');
+console.log(' ');
+
 }
+
 
 dataHandling2(array);
 
